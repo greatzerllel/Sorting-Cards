@@ -3,23 +3,23 @@
     margin: 0;
 }
 
-/* body{
+body{
     background-color: forestgreen;   
-} */
+}
 
 .gameCard{
     background-color: white;
-    width: 400px;
-    height: 600px;
-    border-radius: 30px;
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
     filter: drop-shadow(30px 10px 4px #174226);
 }
 
 .iconTopLeft{
-    margin: 40px 0 0 40px;
+    margin: 5px 0 0 5px;
 }
 .iconBottonRight{
-    margin: 0 40px 40px 0;
+    margin: 0 5px 5px 0;
 }
 .rotate{
     transform: rotate(180deg)
@@ -90,4 +90,7 @@ button {
     }
    }
    
+   .inputDraw{
+    width: 50px !important;
+   }
    

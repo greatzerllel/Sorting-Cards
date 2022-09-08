@@ -15,39 +15,36 @@
 <body>
 
 <div class="container mt-5">
-    <div class="input-group mb-3">
-        <a class="btn btn-outline-secondary" id="nombreboton" type="button" id="button-addon1">Button</a>
-        <input type="text" class="form-control" id="nombreinput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+    <div class="input-group mb-3 w-25">
+        <a class="btn btn-danger" id="drawCardsBtn" type="button">Draw</a>
+        <input type="text" class="form-control inputDraw" id="cardsNumber" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
       </div>
 </div>
     
-  
+    <div class="container d-flex" id="cartasRandom">
 
-    <button class="mt-5" id="change">
-        <span>CHANGE</span>
-      </button>
-
-      <div class="container" id="cartasRandom">
-
-      </div>
-      <div class="container" id="cartasOdenadas">
+        <!-- <div class="gameCard d-flex flex-column justify-content-center align-items-center justify-content-between me-2" id="carta">
+            <div class="w-100"><div class="iconTopLeft icon"></div></div>            
+                <span class="display-6" id="cardNumber"></span>              
+            <div class="w-100"><div class="iconBottonRight rotate icon"></div></div>
+        </div> -->
         
-      </div>
-
-<!-- <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
-
-    <div class="gameCard d-flex flex-column justify-content-center align-items-center justify-content-between">
-        <div class="w-100"><div class="iconTopLeft display-2 icon"><i class="fa-solid fa-heart text-danger"></i></div></div>
-     
-            <h1 class="display-1" id="cardNumber"><strong>2</strong></h1>
-        
-        <div class="w-100"><div class="iconBottonRight text-end display-2 icon"><i class="fa-solid fa-heart text-danger rotate"></i></div></div>
     </div>
+    
+    <div class="container">
+        <button class="mt-5 mb-5" id="sortCardsBtn">
+            <span>Sort</span>
+        </button>
+    
+    </div>
+    <div class="container">
+        <div id="cartasOrdenadas">
 
+            
+          
+        </div>     
+    </div>
    
-</div> -->
-
-
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
